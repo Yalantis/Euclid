@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Euclid</string>
+
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+
+    <string-array name="array_names">
+        <item>"Anastasia Druzhinina"</item>
+        <item>"Andriy Hristyan"</item>
+        <item>"Dmitriy Dovbnya"</item>
+        <item>"Dmitry Denisenko"</item>
+        <item>"Eduard Baev"</item>
+        <item>"Iliya Bershadskiy"</item>
+        <item>"Kirill Penzykov"</item>
+        <item>"Konstantin Rudenko"</item>
+        <item>"Oleksii Shliama"</item>
+        <item>"Pavel Apisov"</item>
+        <item>"Vadim Ooleynik"</item>
+    </string-array>
+</resources>

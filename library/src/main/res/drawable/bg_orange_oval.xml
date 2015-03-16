@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners
+        android:radius="1dp"
+        android:topLeftRadius="@dimen/corner_radius_oval"
+        android:topRightRadius="@dimen/corner_radius_oval"
+        android:bottomLeftRadius="@dimen/corner_radius_oval"
+        android:bottomRightRadius="@dimen/corner_radius_oval" />
+
+    <solid android:color="@color/orange" />
+
+</shape>

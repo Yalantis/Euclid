@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wrapper_list_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/gray">
+
+    <ImageView
+        android:id="@+id/image_view_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_profile_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        tools:src="@drawable/nicolas_cage" />
+
+    <View
+        android:id="@+id/view_avatar_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_view_avatar"
+        android:layout_alignBottom="@+id/image_view_avatar"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp" />
+    <!--Add -1dp top/bottom margins to remove weird flickering while animating-->
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-thin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_view_avatar"
+        tools:text="RICHARD"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_name"
+        tools:text="@string/lorem_ipsum_short" />
+
+</RelativeLayout>
