@@ -14,17 +14,14 @@
         android:layout_height="@dimen/height_profile_image"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
+        android:paddingBottom="1dp"
         tools:src="@drawable/nicolas_cage" />
+    <!--Add 1dp bottom padding to remove weird flickering while animating-->
 
     <View
         android:id="@+id/view_avatar_overlay"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/image_view_avatar"
-        android:layout_alignBottom="@+id/image_view_avatar"
-        android:layout_marginTop="-1dp"
-        android:layout_marginBottom="-1dp" />
-    <!--Add -1dp top/bottom margins to remove weird flickering while animating-->
+        android:layout_height="@dimen/height_profile_image"/>
 
     <TextView
         android:id="@+id/text_view_name"
