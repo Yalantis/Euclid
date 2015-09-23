@@ -1,6 +1,6 @@
 # Euclid
 
-This project is an implementation of the User Profile Interface Animation. Made in [Yalantis] (http://yalantis.com/)
+This project is an implementation of the User Profile Interface Animation. Made in [Yalantis] (https://yalantis.com/?utm_source=github)
 
 Check this [project on Dribbble] (https://dribbble.com/shots/1744157-User-Profile-Interface-Animation)
 
