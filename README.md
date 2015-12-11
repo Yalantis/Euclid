@@ -48,6 +48,12 @@ reveals the avatar.
 ### Version: 1.0
 
   * Pilot version
+
+#### Let us know!
+
+We’d be really happy if you sent us links to your projects where you use our component. Just send an email to github@yalantis.com And do let us know if you have any questions or suggestion regarding the animation. 
+
+P.S. We’re going to publish more awesomeness wrapped in code and a tutorial on how to make UI for Android (iOS) better than better. Stay tuned!
   
 ## License
 
