@@ -25,8 +25,8 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.github.ozodrukh:CircularReveal:2.0.1@aar'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.github.ozodrukh:CircularReveal:1.1.1'
     implementation 'com.squareup.picasso:picasso:2.8'
     implementation 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
     implementation 'com.nineoldandroids:library:2.4.0'
