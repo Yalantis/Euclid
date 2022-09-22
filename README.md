@@ -45,6 +45,10 @@ reveals the avatar.
   
 # Changelog
 
+### Version: 1.1
+  
+  * Update dependencies, migrate to AndroidX
+
 ### Version: 1.0
 
   * Pilot version

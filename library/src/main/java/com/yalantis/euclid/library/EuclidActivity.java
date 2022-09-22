@@ -10,7 +10,6 @@ import android.graphics.drawable.shapes.RoundRectShape;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -157,11 +156,11 @@ public abstract class EuclidActivity extends Activity {
 
         mOverlayListItemView.findViewById(R.id.view_avatar_overlay).setBackground(sOverlayShape);
 
-        Picasso.with(EuclidActivity.this).load((Integer) item.get(EuclidListAdapter.KEY_AVATAR))
+        Picasso.get().load((Integer) item.get(EuclidListAdapter.KEY_AVATAR))
                 .resize(sScreenWidth, sProfileImageHeight).centerCrop()
                 .placeholder(R.color.blue)
                 .into((ImageView) mOverlayListItemView.findViewById(R.id.image_view_reveal_avatar));
-        Picasso.with(EuclidActivity.this).load((Integer) item.get(EuclidListAdapter.KEY_AVATAR))
+        Picasso.get().load((Integer) item.get(EuclidListAdapter.KEY_AVATAR))
                 .resize(sScreenWidth, sProfileImageHeight).centerCrop()
                 .placeholder(R.color.blue)
                 .into((ImageView) mOverlayListItemView.findViewById(R.id.image_view_avatar));
@@ -211,7 +210,7 @@ public abstract class EuclidActivity extends Activity {
      * @return - animator object that starts circle reveal animation.
      */
     private SupportAnimator getAvatarRevealAnimator() {
-        final LinearLayout mWrapperListItemReveal = (LinearLayout) mOverlayListItemView.findViewById(R.id.wrapper_list_item_reveal);
+        final LinearLayout mWrapperListItemReveal = mOverlayListItemView.findViewById(R.id.wrapper_list_item_reveal);
 
         int finalRadius = Math.max(mOverlayListItemView.getWidth(), mOverlayListItemView.getHeight());
 
